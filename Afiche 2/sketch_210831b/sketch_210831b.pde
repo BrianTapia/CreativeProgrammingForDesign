@@ -1,5 +1,3 @@
-import processing.pdf.*;
-
 color red = color(160, 0, 0);
 color black = color(0, 0, 0);
 color w = color(255);
@@ -10,7 +8,7 @@ float sw = 1;
 int alpha = 100;
 
 void setup(){
-  size(600, 900, PDF, "Afiche.pdf");
+  size(600, 900);
   background(black);
   
   // DIBUJA EL FONDO CON LAS FIGURAS DE LAS CARTAS.
@@ -53,13 +51,15 @@ void setup(){
   fill(black, 200);
   rect(300, 810, 250, 50);
   
-  fuente = createFont("SnellRoundhand", 48); 
+  fuente = loadFont("SnellRoundhand-48.vlw"); 
   
   textFont(fuente);
   textSize(30);
   fill(w);
   text("That's the puzzle...", 320, 845);
 
+  // Guardo el resultado:
+  save("Afiche.tif");
 }
 
 void drawRandom(float x, float y,
@@ -288,6 +288,11 @@ void drawHeart(float x, float y,
   
   shininess(5.0);
   
+  //translate(x, 3*y);
+  //rotate(radians(180));
+  
+  //x = 0; y = 0;
+  
   beginShape();
     vertex(x, y); // Starting point.
     
@@ -321,5 +326,6 @@ void drawHeart(float x, float y,
     
   endShape();
   
+  //resetMatrix();
   
 }
