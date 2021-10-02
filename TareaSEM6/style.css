@@ -5,10 +5,12 @@ body{
 
 h1{
   text-align: center;
+  font-family: 'Lora', serif;
 }
 
 p{
   margin: 3px;
+  font-family: 'Lora', serif;
 }
 
 hr{
