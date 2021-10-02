@@ -1,0 +1,25 @@
+body{
+  background: #F6ECF5;
+  margin: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  margin: 3px;
+}
+
+hr{
+  border-width: 5px;
+}
+
+th{
+  vertical-align: top;
+  text-align: left;
+}
+
+table{
+  border-spacing: 25px;
+}
