@@ -1,0 +1,129 @@
+body {
+  background: #F6ECF5;
+  margin: 50px;
+}
+
+.japan {
+	background-color:white;
+	width:360px;
+	height: 220px;
+	margin: 20px;
+  border:solid;
+  border-color:black;
+  border-width:5px;
+  position: absolute;
+}
+
+  /* japan */
+  #red_circle {
+    position: relative;
+    background-color: rgb(255,0,0);
+    width:110px;
+    height:110px;
+    border-radius: 100%;
+    left:125px;
+    top:55px;
+  }
+
+.finland {
+	background-color:white;
+	width: 360px;
+	height: 220px;
+	margin: 20px;
+  margin-top: 300px;
+  border:solid;
+  border-color:black;
+  border-width:5px;
+  position: absolute;
+}
+  /* finland */
+  #hline_finland {
+    width: 55px;
+    height: 100%;
+    background-color: rgb(17,82,146);
+    margin-left: 77.5px;
+    position: relative;
+  }
+
+  #vline_finland {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(17,82,146);
+    margin-top: -137.5px;
+    position: relative;
+  }
+
+/* finland */
+.finland {
+	background-color:white;
+	width: 360px;
+	height: 220px;
+	margin: 20px;
+  margin-top: 300px;
+  border:solid;
+  border-color:black;
+  border-width:5px;
+  position: absolute;
+}
+
+  #hline_finland {
+    width: 55px;
+    height: 100%;
+    background-color: rgb(17,82,146);
+    margin-left: 77.5px;
+    position: relative;
+  }
+
+  #vline_finland {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(17,82,146);
+    margin-top: -137.5px;
+    position: relative;
+  }
+
+/* panama */
+.panama{
+   width: 360px;
+   height: 220px;
+   border: solid;
+   border-color: black;
+   border-width: 5px;
+   margin:20px;
+   margin-top: 600px;
+   background-color: white;
+   position: absolute;
+ }
+
+
+  #bluestar {
+    width:70px;
+    top: 20px;
+    margin-left: 55px;
+    position: absolute;
+  }
+
+  #red{
+     width: 180px;
+     height: 110px;
+     top: 0px;
+     margin-left: 180px;
+     background: #d51f36;
+     position: absolute;
+   }
+
+  #redstar {
+    width:70px;
+    top: 130px;
+    padding-left: 235px;
+    position: absolute;
+  }
+
+
+  #blue{
+     width: 180px;
+     height: 110px;
+     top: 110px;
+     background: #045393;
+     position: absolute;
+   }
