@@ -1,0 +1,29 @@
+body {
+  background: #000000;
+  margin: 50px;
+}
+
+a {
+  display:block;
+  position: relative;
+  background-color: rgb(255,0,0);
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 300px;
+
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+.red_circle {
+  position: relative;
+  background-color: rgb(255,0,0);
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 300px;
+}
