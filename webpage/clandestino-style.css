@@ -1,0 +1,14 @@
+body {
+  background-image: url("src/squirrel.gif");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
