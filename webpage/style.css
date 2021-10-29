@@ -1,9 +1,11 @@
 body {
   width: 100vw;
-  height: 100vh;
+  height: 102vh;
   margin: 0;
   padding: 0;
-  background: #232323;
+  background: #FFFFFF;
+  background-image: url("src/giphy.gif");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

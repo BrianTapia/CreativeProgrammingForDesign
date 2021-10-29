@@ -4,26 +4,35 @@
 	<title> Don't press the button </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="startTimer()">
+
 <div class = "frame">
 	<div class="inner-frame">
-		<div class="button">
-		  <a class="button" href="rickrolleado.html"> </a>
+		<div class="button" onclick="returnTime()">
+		  <a href="rickrolleado.html" id="alink"> </a>
 		</div>
 	</div>
 </div>
-
-
-
-<!-- Descomentar para ver la versión alternativa
-
-<div class="red_circle-alt">
-  <a class="red_circle-alt" href="rickrolleado.html"> </a>
-</div>
-
-<div class="blue_circle-alt">
-  <a class="blue_circle-alt" href="bombastic.html"> </a>
-</div>
--->
-
 </body>
+
+<script type="text/javascript">
+  var seconds = 0;
+	document.getElementById("seconds-counter").innerHTML =
+	"You have been here for " + seconds + " seconds.";
+
+  function startTimer() {
+    window.setInterval("updateTime()", 1000);
+  }
+
+  function updateTime() {
+    ++seconds;
+    document.getElementById("seconds-counter").innerHTML =
+		"You have been here for " + seconds + " seconds.";
+  }
+
+	function returnTime() {
+		document.getElementById("alink").href =
+		"rickrolleado.html" + "?seconds=" + seconds.toString();
+	}
+
+</script>

@@ -7,16 +7,6 @@
 
 <body>
 
-  <!--
-  <embed src="src/NeverGonnaGiveYouUp.mp3"
-         width="180"
-         height="90"
-         autostart="true"
-         hidden="false"/>
-  </embed>
--->
-
-
   <audio id='player' controls autoplay loop hidden>
     <source src="src/NeverGonnaGiveYouUp.mp3" type="audio/mpeg">
   </audio>
@@ -35,5 +25,16 @@
     </button>
   </div>
 
+	<div id="show-seconds"> </div>
+
 </body>
 </html>
+
+<script type="text/javascript">
+	const urlParams = new URLSearchParams(window.location.search);
+	const seconds = urlParams.get('seconds');
+
+
+	document.getElementById("show-seconds").innerHTML =
+	"Te demoraste " + seconds + " seconds";
+</script>
