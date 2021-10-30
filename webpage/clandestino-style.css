@@ -8,6 +8,16 @@ a {
   color:black;
 }
 
+div {
+  text-align: center;
+}
+
+#bottom-div {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 50px;
+}
+
 a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color:black; }
